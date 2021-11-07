@@ -15,7 +15,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - module.exports = {
     > purge: {  
     > enabled: true,  
-    > content: ["./src/**/*.{html,ts}"],  
+    > content: ["./src/**/*.{html,ts}"],
 
 },
 ...}
+
+# build responsive card grid with Angular and Tailwindcss
+
+- ![screen](src/assets/screen1.png)
