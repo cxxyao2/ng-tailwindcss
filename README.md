@@ -13,9 +13,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - tailwind.config.js add
 
   - module.exports = {
-    > purge: {
-    > enabled: true,
-    > content: ["./src/**/*.{html,ts}"],
+    > purge: {  
+    > enabled: true,  
+    > content: ["./src/**/*.{html,ts}"],  
 
 },
 ...}
