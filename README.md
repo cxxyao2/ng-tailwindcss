@@ -4,18 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # tailwindcss
 
-> npm install -D tailwindcss
-> npx tailwindcss init
-> style.scss add
-> @tailwind base;
-> @tailwind components;
-> @tailwind utilities;
-> tailwind.config.js add
-> module.exports = {
-> purge: {
+- npm install -D tailwindcss
+- npx tailwindcss init
+- style.scss add
+  - @tailwind base;
+  - @tailwind components;
+  - @tailwind utilities;
+- tailwind.config.js add
 
-    enabled: true,
-    content: ["./src/**/*.{html,ts}"],
+  - module.exports = {
+    - purge: {
+    - enabled: true,
+    - content: ["./src/**/*.{html,ts}"],
 
 },
 ...}
